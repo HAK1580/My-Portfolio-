@@ -10,7 +10,7 @@ const Navbar = ({hamopen,setHamopen}) => {
 
 
     return (
-        <div className='sticky top-0 '>
+        <div className='sticky bg-[#000000e7] w-full top-0  z-1000 '>
             <ul className='flex w-[97%] py-2 justify-between items-center mt-3 mx-auto   '>
                 <div className="nav_name pl-3 ">
                     <h1 className='text-blue-500 text-[1.25rem] font-semibold sm:text-[2.6vw]'> HAK  Portfolio </h1>
@@ -33,7 +33,7 @@ const Navbar = ({hamopen,setHamopen}) => {
                </div>
 
             </ul>
-            <div className={`hamburger-comp ${hamopen?"animate-ham":"opacity-0"} `}>
+            <div className={`hamburger-comp  ${hamopen?"animate-ham":"opacity-0"} `}>
              <Hamburger hamopen={hamopen} setHamopen={setHamopen} />
 
             </div>

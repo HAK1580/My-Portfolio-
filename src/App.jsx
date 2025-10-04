@@ -15,11 +15,11 @@ function App() {
       }
 
     }
-     document.addEventListener("click",outsideClick);
-     
-     return(()=>{
-      document.removeEventListener("click",outsideClick);
-      
+    document.addEventListener("click", outsideClick);
+
+    return (() => {
+      document.removeEventListener("click", outsideClick);
+
     })
 
 
@@ -28,11 +28,10 @@ function App() {
 
 
   return (
-    <> 
+    <>
       <Navbar hamopen={hamopen} setHamopen={setHamopen} />
       <Hero />
-      <div className="space h-200"></div>
-
+         lorem1000
     </>
   )
 }

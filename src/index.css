@@ -38,6 +38,7 @@ text-decoration-color: rgb(174, 174, 183);
 .animate-ham{
   opacity: 1;
   animation: animate-ham 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
 }
 @keyframes  animate-ham {
