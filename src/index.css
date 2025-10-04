@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base{
+    body{
+        background-color: black;
+        color: white;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+ ul li a {
+  position: relative;
+}
+
+ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6.5px;
+  color: white;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: all 0.3s ease-in;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+.ham-a:hover{
+text-decoration: underline;
+text-decoration-color: rgb(174, 174, 183);
+
+}
+.animate-ham{
+  opacity: 1;
+  animation: animate-ham 0.5s ease-in-out;
+
+}
+@keyframes  animate-ham {
+  from{
+    transform: translateX(50%);
+  }
+  to{
+    transform: translateX(0%);
+
+  }
+
+  
+}
+    
+}
+@layer utilities{
+    .soge{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+
+    }
+}
