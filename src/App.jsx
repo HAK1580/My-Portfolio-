@@ -31,7 +31,7 @@ function App() {
     <>
       <Navbar hamopen={hamopen} setHamopen={setHamopen} />
       <Hero />
-         lorem1000
+      
     </>
   )
 }
