@@ -3,7 +3,12 @@ import { useState } from 'react'
 import Hamburger from './Hamburger'
 
 const Navbar = ({hamopen,setHamopen}) => {
- 
+
+ function onhamClick(){
+    setHamopen(!hamopen);
+   
+}
+
 
  
 
@@ -27,7 +32,7 @@ const Navbar = ({hamopen,setHamopen}) => {
 
                </div>
                <div className="ham-for-mobile sm:hidden ">
-                <img onClick={()=>setHamopen(!hamopen)}  className='w-6 ham-img absolute right-4 top-4   z-1000' 
+                <img onClick={onhamClick }  className='w-6 ham-img absolute right-4 top-4   z-1000' 
                 src={hamopen?"/cross.svg":`/hamburger.svg`} alt="" />
                 
                </div>
