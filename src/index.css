@@ -4,16 +4,18 @@
     body{
         background-color: black;
         color: white;
-        overflow-x: hidden;
+    
     }
     html{
       scroll-behavior: smooth;
     }
 
+
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+
         
     }
 
@@ -64,6 +66,29 @@ text-decoration-color: rgb(174, 174, 183);
     .soge{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      
-
     }
+    .arrow-btn {
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.arrow-btn:active {
+  transform: scale(0.9);
+}
+
+.arrow-icon {
+  transition: all 0.3s ease;
+  filter: brightness(0.9);
+}
+
+/* Red flash when clicked */
+.arrow-btn.clicked .arrow-icon {
+  filter: hue-rotate(-30deg) saturate(5) brightness(1.2);
+  transform: scale(0.9);
+}
+
+/* Optional hover glow (looks premium) */
+.arrow-btn:hover .arrow-icon {
+  filter: drop-shadow(0 0 5px red);
+}
+
 }

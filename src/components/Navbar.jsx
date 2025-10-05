@@ -18,17 +18,17 @@ const Navbar = ({hamopen,setHamopen}) => {
         <div className='sticky bg-[#000000e7] w-full top-0  z-1000 '>
             <ul className='flex w-[97%] py-2 justify-between items-center mt-3 mx-auto   '>
                 <div className="nav_name pl-3 ">
-                    <h1 className='text-blue-500 text-[1.25rem] font-semibold sm:text-[2.6vw]'> HAK  Portfolio </h1>
+                    <a href='/' className='text-blue-500 text-[1.25rem] font-semibold sm:text-[2.6vw]'> HAK  Portfolio </a>
                 </div>
 
          <div className="links hidden  sm:flex justify-center mr-10   gap-[3.5vw] items-center   ">
 
-                <li><a className='text-[1.75vw] soge    '   href="/"> Home  </a></li>
-                <li><a className='text-[1.75vw] soge  '   href="/"> About  </a></li>
-                <li><a className='text-[1.75vw] soge  '   href="/"> Skills  </a></li>
-                <li><a className='text-[1.75vw] soge  '   href="/"> Projects </a></li>
-                <li><a className='text-[1.75vw] soge  '   href="/"> Resume  </a></li>
-                <li><a className='text-[1.75vw] soge  '   href="/"> Contact </a></li>
+                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge    '   href="/"> Home  </a></li>
+                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> About  </a></li>
+                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Skills  </a></li>
+                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Projects </a></li>
+                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Resume  </a></li>
+                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Contact </a></li>
 
                </div>
                <div className="ham-for-mobile sm:hidden ">

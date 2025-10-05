@@ -15,7 +15,7 @@ const About = () => {
              <span className='text-[1.8rem]'>" </span>
   I’m M. Hassan Ali Khan, a Junior Frontend Developer with 1 year of experience building responsive and user-friendly web applications. 
   Skilled in <span class="text-blue-400">React.js, Redux, JavaScript, and Tailwind CSS</span>, I’ve developed projects including an {<br></br>} 
-  <span class="text-blue-400">e-commerce website, weather app, and UI clones like Netflix</span>. 
+  <span class="text-blue-400">e-commerce website, weather app, University's admission form , and UI clones like Netflix</span>. 
   I focus on clean, efficient code and delivering seamless user experiences across all devices 
 </p>
   <span className='text-[1.8rem] '> " </span>

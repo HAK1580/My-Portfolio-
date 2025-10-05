@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import { useEffect } from 'react'
 import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
   const [hamopen, setHamopen] = useState(false)
@@ -38,10 +40,12 @@ function App() {
 
 
   return (
-    <div >
+    <div className='flex flex-col ' >
       <Navbar hamopen={hamopen} setHamopen={setHamopen} />
       <Hero />
       <About />
+      <Skills />
+      <Projects />
        
       
     </div>
