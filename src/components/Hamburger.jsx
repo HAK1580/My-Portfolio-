@@ -4,11 +4,11 @@ const Hamburger = ({hamopen,setHamopen}) => {
   return (
     <div className={`overflow-hidden border sm:hidden bg-black  rounded-[2px] border-[#ffffff1f] fixed mt-[-0.9rem]   z-100 right-0 w-[80%] h-[100vh]`}>
         <ul className='flex flex-col ml-6 mt-5 gap-6'>
-            <li><a className='text-[1.2rem] ham-a' href="">Home</a></li>
-            <li><a className='text-[1.2rem] ham-a' href="">About</a></li>
-            <li><a className='text-[1.2rem] ham-a' href="">Skills</a></li>
-            <li><a className='text-[1.2rem] ham-a' href="">Projects</a></li>
-            <li><a className='text-[1.2rem] ham-a' href="">Resume</a></li>
+            <li><a className='text-[1.2rem] ham-a' href="/">Home</a></li>
+            <li><a className='text-[1.2rem] ham-a' href="/about">About</a></li>
+            <li><a className='text-[1.2rem] ham-a' href="/skills">Skills</a></li>
+            <li><a className='text-[1.2rem] ham-a' href="/projects">Projects</a></li>
+            <li><a className='text-[1.2rem] ham-a' href="/">Resume</a></li>
         </ul>
         <div className="social-media mt-18 m-6">
             <h1 className='uppercase   tracking-wide  soge text-[1.4rem]'>Social </h1>

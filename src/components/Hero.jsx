@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
 
              <div className="hero-img flex ">
-                <img className='max-[500px]:w-40 w-50 sm:w-60 md:w-75 lg:w-100  rounded-full object-cover ' src="mypic.webp" alt="portfolio-pic" />
+                <img className='max-[500px]:w-40 w-50 sm:w-60 md:w-75 lg:w-100  rounded-full object-cover ' src="/mypic.webp" alt="portfolio-pic" />
              </div>
 
         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import Hamburger from './Hamburger'
+import { Link } from 'react-router-dom'
 
 const Navbar = ({hamopen,setHamopen}) => {
 
@@ -23,12 +24,12 @@ const Navbar = ({hamopen,setHamopen}) => {
 
          <div className="links hidden  sm:flex justify-center mr-10   gap-[3.5vw] items-center   ">
 
-                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge    '   href="/"> Home  </a></li>
-                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> About  </a></li>
-                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Skills  </a></li>
-                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Projects </a></li>
-                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Resume  </a></li>
-                <li><a className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/"> Contact </a></li>
+                <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge    ' to="/"> Home  </Link></li>
+                <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/about"> About  </Link></li>
+                <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/skills"> Skills  </Link></li>
+                <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/projects"> Projects </Link></li>
+                <li><a target='_blank' className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="/assets/Cv.pdf"> Resume  </a></li>
+                <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/contact"> Contact </Link></li>
 
                </div>
                <div className="ham-for-mobile sm:hidden ">
