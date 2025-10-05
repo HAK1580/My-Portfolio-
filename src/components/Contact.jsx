@@ -7,9 +7,9 @@ const Contact = () => {
       className="w-full mt-20 py-16 px-6 flex flex-col items-center text-white"
     >
       {/* Heading */}
-      <h2 className="text-3xl sm:text-4xl font-bold text-blue-500 mb-8 text-center">
-        Contact Me
-      </h2>
+    <h1 className='flex  justify-center items-center  my-10 sm:text-[2.5rem] lg:text-[3.7rem] text-[1.5rem]' >
+      Contact Me  </h1>
+
 
       {/* Contact Box */}
       <div className="w-full max-w-[700px] bg-[#111827] rounded-2xl shadow-lg border border-blue-800 p-8 sm:p-10">

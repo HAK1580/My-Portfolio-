@@ -62,9 +62,9 @@ const Projects = () => {
 
   return (
     <div className="my-12 relative">
-      <h1 className="flex justify-center items-center text-[1.9rem] sm:text-[2.5rem] lg:text-[3.2rem] font-semibold mb-6">
-        Projects
-      </h1>
+      <h1 className='flex  justify-center items-center  my-10 sm:text-[2.5rem] lg:text-[3.7rem] text-[1.5rem]' >
+        Projects </h1>
+
 
       {/* 🔹 Project Slider */}
       <div
