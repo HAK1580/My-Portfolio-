@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Hamburger = ({hamopen,setHamopen}) => {
   return (
-    <div className={`overflow-hidden border sm:hidden bg-black  rounded-[2px] border-[#ffffff1f] fixed mt-[-0.9rem]   z-[1500] right-0 w-[80%] h-[100vh]`}>
+    <div className={`overflow-hidden border sm:hidden bg-black  rounded-[2px] border-[#ffffff1f] fixed mt-[-0.9rem]   z-10000 right-0 w-[80%] h-[100vh]`}>
         <ul className='flex flex-col ml-6 mt-5 gap-6'>
             <li><Link className='text-[1.2rem] ham-a' to="/">Home</Link></li>
             <li><Link className='text-[1.2rem] ham-a' to="/about">About</Link></li>
