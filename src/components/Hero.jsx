@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <div>
-        <div className="hero my-22 lg:w-[90%]  max-[500px]:max-w-[98.5%] sm:max-w-[92%] max-w-[95%]  mx-auto gap-1  flex justify-between  ">
+        <div className="hero mt-30 mb-12 lg:w-[90%]  max-[500px]:max-w-[98.5%] sm:max-w-[92%] max-w-[95%]  mx-auto gap-1  flex justify-between  ">
             <div className="name-des font-medium   flex flex-col gap-1">
                 <h1 className=' sm:text-[1.42rem] md:text-[1.6rem] lg:text-[2.3rem] text-[1.20rem] py-0.5' >Hi, I’m <br></br> <span className='text-blue-500 md:text-[3rem] lg:text-[4.8vw] lg:font-bold  sm:text-[2.6rem] text-[1.40rem]'> M.Hassan Ali Khan </span>  </h1>
                 <h1 className=' sm:text-[1.5rem] md:text-[1.8rem] lg:text-[2.6vw] lg:font-bold text-[1.10rem] '>a Front End Developer.</h1>
