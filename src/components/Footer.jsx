@@ -43,7 +43,7 @@ const Footer = () => {
               <i className="fa-solid fa-envelope text-2xl"></i>
             </a>
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/HAK1580"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-400 transition"
@@ -51,7 +51,7 @@ const Footer = () => {
               <i className="fa-brands fa-github text-2xl"></i>
             </a>
             <a
-              href="https://linkedin.com/in/yourlinkedin"
+              href="https://www.linkedin.com/in/muhammad-hassan-ali-khan-49a965281/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-400 transition"
