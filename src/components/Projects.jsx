@@ -76,11 +76,15 @@ const Projects = () => {
             key={project.id}
             className="project-card shrink-0 w-[100%] xs:w-[75%] sm:w-[60%] md:w-[45%] lg:w-[28%] bg-[#0e0e0e] border border-[#ffffff40] rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300"
           >
+            <a target="_blank"href={project.demo}>
+              
             <img
               className="w-full h-60 lg:h-85 sm:h-64 object-cover"
               src={project.image}
               alt={project.title}
-            />
+              />
+
+              </a>
             <div className="p-4 text-center">
               <h2 className="text-[1.2rem] sm:text-[1.4rem]  font-semibold mt-2">
                 {project.title}
