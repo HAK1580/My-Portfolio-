@@ -89,10 +89,10 @@ const Projects = () => {
                 {project.desc}
               </p>
               <div className="flex justify-center gap-5">
-                <a target="_blank" href={project.demo} className="bg-blue-600 hover:bg-blue-700 transition cursor-pointer text-white px-3 py-1.5 rounded-md text-[0.9rem]">
+                <a target="_blank" href={project.demo} className="bg-blue-600 hover:bg-blue-700 transition z-1000 cursor-pointer text-white px-3 py-1.5 rounded-md text-[0.9rem]">
                   Live Demo
                 </a>
-                <a target="_blank" href={project.code} className="bg-blue-600 hover:bg-blue-700 transition cursor-pointer text-white px-3 py-1.5 rounded-md text-[0.9rem]">
+                <a target="_blank" href={project.code} className="bg-blue-600 hover:bg-blue-700 transition z-1000 cursor-pointer text-white px-3 py-1.5 rounded-md text-[0.9rem]">
                   View Code
                 </a>
               </div>

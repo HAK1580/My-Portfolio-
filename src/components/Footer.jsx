@@ -18,16 +18,16 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-blue-400">Quick Links</h3>
           <ul className="flex flex-col gap-2 text-gray-300 text-[0.95rem]">
             <li>
-              <Link to="/" className="hover:text-blue-400 transition">Home</Link>
+              <Link to="/" className="hover:text-blue-400 z-1000  transition">Home</Link>
             </li>
             <li>
-              <Link to="/projects" className="hover:text-blue-400 transition">Projects</Link>
+              <Link to="/projects" className="hover:text-blue-400 z-1000  transition">Projects</Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-blue-400 transition">About</Link>
+              <Link to="/about" className="hover:text-blue-400 z-1000  transition">About</Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-blue-400 transition">Contact</Link>
+              <Link to="/contact" className="hover:text-blue-400 z-1000  transition">Contact</Link>
             </li>
           </ul>
         </div>
