@@ -1,19 +1,18 @@
 import React from "react";
 
-
 const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full mt-20 py-16 px-6 flex flex-col items-center text-white"
+      className="relative z-[50] w-full mt-20 py-16 px-6 flex flex-col items-center text-white pointer-events-auto"
     >
       {/* Heading */}
-    <h1 className='flex  justify-center items-center  my-10 sm:text-[2.5rem] lg:text-[3.7rem] text-[1.5rem]' >
-      Contact Me  </h1>
-
+      <h1 className="flex justify-center items-center my-10 sm:text-[2.5rem] lg:text-[3.7rem] text-[1.5rem]">
+        Contact Me
+      </h1>
 
       {/* Contact Box */}
-      <div className="w-full max-w-[700px] bg-[#111827] rounded-2xl shadow-lg border border-blue-800 p-8 sm:p-10">
+      <div className="w-full max-w-[700px] bg-[#111827] rounded-2xl shadow-lg border border-blue-800 p-8 sm:p-10 z-[60] relative pointer-events-auto">
         <p className="text-center text-[1.05rem] text-gray-300 mb-6">
           Got a project in mind or just want to say hi? Let’s connect!
         </p>
@@ -58,13 +57,13 @@ const Contact = () => {
         {/* Contact Links */}
         <div className="flex justify-center gap-8 mt-8">
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:aliofficial1580630@gmail.com"
             className="text-blue-500 hover:text-blue-400 transition"
           >
             <i className="fa-solid fa-envelope text-2xl"></i>
           </a>
           <a
-            href="https://github.com/yourgithub"
+            href="https://github.com/HAK1580"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-400 transition"
@@ -72,7 +71,7 @@ const Contact = () => {
             <i className="fa-brands fa-github text-2xl"></i>
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://www.linkedin.com/in/muhammad-hassan-ali-khan-49a965281/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-400 transition"

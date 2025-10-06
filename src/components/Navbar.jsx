@@ -39,11 +39,10 @@ const Navbar = ({hamopen,setHamopen}) => {
                </div>
 
             </ul>
-            <div className={`hamburger-comp  ${hamopen?"animate-ham":"opacity-0"} `}>
-             <Hamburger hamopen={hamopen} setHamopen={setHamopen} />
+           <div className={`hamburger-comp ${hamopen ? "animate-ham pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
+  <Hamburger hamopen={hamopen} setHamopen={setHamopen} />
+</div>
 
-            </div>
-          
         </div>
     )
 }
