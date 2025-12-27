@@ -28,6 +28,14 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "Responsive Landing Page",
+      desc: "A responsive business page built using React js and Tailwind CSS.",
+      image: "/project-imgs/figma.png",
+      demo:"https://responsive-landing-page-3fii.vercel.app/",
+      code:"https://github.com/HAK1580/responsive-landing-page",
+    },
+    {
+      id: 5,
       title: "Netflix UI Clone",
       desc: "A responsive Netflix UI clone built with HTML, CSS, and Vanilla JavaScript.",
       image: "/project-imgs/netflix.jpg",
@@ -35,7 +43,7 @@ const Projects = () => {
       code:"",
     },
     {
-      id: 5,
+      id: 6,
       title: "Calculator App",
       desc: "A simple, responsive calculator app built using HTML, CSS, and JavaScript.",
       image: "/project-imgs/calculater.PNG",
