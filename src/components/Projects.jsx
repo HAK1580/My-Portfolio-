@@ -19,20 +19,20 @@ const Projects = () => {
       code:"https://github.com/HAK1580/Weather-App",
     },
     {
-      id: 3,
-      title: "University Admission Form",
-      desc: "A React-based admission form with real-time validation and smooth user experience.",
-      image: "/project-imgs/admissionform.PNG",
-      demo:"https://uniadmissionform.netlify.app/",
-      code:"https://github.com/HAK1580/University-Admission-Form-React",
-    },
-    {
       id: 4,
       title: "Responsive Landing Page",
       desc: "A responsive business page built using React js and Tailwind CSS.",
       image: "/project-imgs/figma.png",
       demo:"https://responsive-landing-page-3fii.vercel.app/",
       code:"https://github.com/HAK1580/responsive-landing-page",
+    },
+    {
+      id: 3,
+      title: "University Admission Form",
+      desc: "A React-based admission form with real-time validation and smooth user experience.",
+      image: "/project-imgs/admissionform.PNG",
+      demo:"https://uniadmissionform.netlify.app/",
+      code:"https://github.com/HAK1580/University-Admission-Form-React",
     },
     {
       id: 5,
