@@ -11,12 +11,12 @@ const Projects = () => {
       code:"https://github.com/HAK1580/Scentra-Dead-Final-Production",
     },
     {
-      id: 2,
-      title: "Weather App",
-      desc: "A responsive weather app built with React that fetches real-time data using a public Weather API.",
-      image: "/project-imgs/weatherapp.png",
-      demo:"https://weatherapphak1580.netlify.app/",
-      code:"https://github.com/HAK1580/Weather-App",
+      id: 7,
+      title: "Admin Dashboard ",
+      desc: "A responisve Dashboard built using React js and Tailwind CSS. It focus mainly on the structure of the dashboard ",
+      image: "/project-imgs/dashboard.PNG",
+      demo:"https://admin-dashboard-1580.netlify.app/",
+      code:"https://github.com/HAK1580/Admin-Dashboard-",
     },
     {
       id: 4,
@@ -25,6 +25,14 @@ const Projects = () => {
       image: "/project-imgs/figma.png",
       demo:"https://responsive-landing-page-3fii.vercel.app/",
       code:"https://github.com/HAK1580/responsive-landing-page",
+    },
+    {
+      id: 2,
+      title: "Weather App",
+      desc: "A responsive weather app built with React that fetches real-time data using a public Weather API.",
+      image: "/project-imgs/weatherapp.png",
+      demo:"https://weatherapphak1580.netlify.app/",
+      code:"https://github.com/HAK1580/Weather-App",
     },
     {
       id: 3,
