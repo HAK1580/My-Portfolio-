@@ -28,7 +28,7 @@ const Navbar = ({hamopen,setHamopen}) => {
                 <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/about"> About  </Link></li>
                 <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/skills"> Skills  </Link></li>
                 <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/projects"> Projects </Link></li>
-                <li><a target='_blank' className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="public/assets/M_Hassan_Ali_Khan_CV.pdf"> Resume  </a></li>
+                <li><a target='_blank' className='text-[1.75vw] lg:text-[1.55rem]   soge  '   href="assets/M_Hassan_Ali_Khan_CV.pdf"> Resume  </a></li>
                 <li><Link className='text-[1.75vw] lg:text-[1.55rem]   soge  '   to="/contact"> Contact </Link></li>
 
                </div>
