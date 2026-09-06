@@ -13,8 +13,8 @@ const About = () => {
         <div className="desc  lg:w-[55%]  w-[82%] mx-auto ">
            <p className='md:text-[1.2rem] lg:text-[1.4rem] ' >
              <span className='text-[1.8rem]'>" </span>
-  I’m M. Hassan Ali Khan, a Frontend Developer with more than 6 months  of experience building responsive and user-friendly web applications. 
-  Skilled in <span class="text-blue-400">React.js, Redux, JavaScript, and Tailwind CSS</span>, I’ve developed projects including  {<br></br>} 
+  I’m M. Hassan Ali Khan, a Frontend Developer with more than 1 year  of experience building responsive and user-friendly web applications. 
+  Skilled in <span class="text-blue-400">React.js, Redux, JavaScript,Tailwind CSS,MongoDb,Express js </span>, I’ve developed projects including  {<br></br>} 
   <span class="text-blue-400">e-commerce website, Admin Dashboard , weather app, University's admission form , and UI clones like Netflix</span>. 
   I focus on clean, efficient code and delivering seamless user experiences across all devices 
 </p>
