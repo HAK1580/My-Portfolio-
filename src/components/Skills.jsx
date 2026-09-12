@@ -29,6 +29,10 @@ const Skills = () => {
             title:"Redux Toolkit / RTK  (State Management)",
              image:"skills/redux.svg" 
         },
+        {   id:8,
+            title:"MongoDB",
+             image:"skills/mongodb.svg" 
+        },
     ]
 
   return (

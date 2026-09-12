@@ -1,30 +1,41 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
-    <div className='my-30'  >
-        <h1 className='flex  justify-center items-center  my-10 sm:text-[2.5rem] lg:text-[3.7rem] text-[1.5rem]' >About Me </h1>
-        <div className="about-me 
-        lg:flex-row lg:justify-between  mx-auto w-[95%] lg:gap-10
-        flex justify-center gap-2 items-center flex-col">
-       
-       <img className='w-120 rounded-[4px] max-[1024px]:hidden'  src="aboutimg.png" alt="" />
+    <section className="my-20 px-4">
+      <h1 className="flex justify-center items-center my-10 text-2xl sm:text-4xl lg:text-6xl font-bold">
+        About Me
+      </h1>
 
-        <div className="desc  lg:w-[55%]  w-[82%] mx-auto ">
-           <p className='md:text-[1.2rem] lg:text-[1.4rem] ' >
-             <span className='text-[1.8rem]'>" </span>
-  I’m M. Hassan Ali Khan, a Frontend Developer with more than 1 year  of experience building responsive and user-friendly web applications. 
-  Skilled in <span class="text-blue-400">React.js, Redux, JavaScript,Tailwind CSS,MongoDb,Express js </span>, I’ve developed projects including  {<br></br>} 
-  <span class="text-blue-400">e-commerce website, Admin Dashboard , weather app, University's admission form , and UI clones like Netflix</span>. 
-  I focus on clean, efficient code and delivering seamless user experiences across all devices 
-</p>
-  <span className='text-[1.8rem] '> " </span>
+      <div className="about-me mx-auto w-[95%] max-w-6xl flex flex-col lg:flex-row lg:justify-between lg:items-center gap-8">
+        
+        {/* Image - Hidden on screens smaller than lg (1024px) */}
+        <img 
+          className="w-full max-w-md rounded-md object-cover hidden lg:block" 
+          src="aboutimg.png" 
+          alt="M. Hassan Ali Khan" 
+        />
 
+        {/* Text Description */}
+        <div className="desc w-full lg:w-[55%] text-gray-200 leading-relaxed">
+          <p className="text-base md:text-lg lg:text-xl relative pl-4">
+            <span className="text-3xl font-serif text-blue-400 absolute -left-2 -top-2">"</span>
+            I'm <span className="font-semibold text-white">M. Hassan Ali Khan</span>, a Full-Stack Web Developer with hands-on experience building responsive and user-friendly web applications. Skilled in{" "}
+            <span className="text-blue-400 font-medium">
+              React.js, Redux Toolkit, JavaScript, Tailwind CSS, MongoDB, and Express.js
+            </span>
+            , I've developed full-stack systems including an{" "}
+            <span className="text-blue-400 font-medium">
+              e-commerce platform, Expense Tracker, Admin Dashboard, and UI Clones
+            </span>
+            . I focus on clean architecture, efficient APIs, and delivering seamless user experiences across all devices.
+            <span className="text-3xl font-serif text-blue-400 leading-none"> "</span>
+          </p>
         </div>
 
-        </div>
-    </div>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default About
+export default About;
