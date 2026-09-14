@@ -11,6 +11,14 @@ const Projects = () => {
       code:"https://github.com/HAK1580/Scentra-Dead-Final-Production",
     },
     {
+      id: 8,
+      title: "Expense Tracker App — MERN Stack",
+      desc: "Full-stack MERN expense tracker with secure auth and real-time balance tracking.",
+      image: "/project-imgs/expense_tracker.png",
+      demo:"https://expense-tracker-1580.netlify.app/",
+      code:"https://github.com/HAK1580/Expense-tracker-app-frontend",
+    },
+    {
       id: 7,
       title: "Admin Dashboard ",
       desc: "A responisve Dashboard built using React js and Tailwind CSS. It focus mainly on the structure of the dashboard ",
