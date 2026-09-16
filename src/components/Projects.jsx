@@ -26,46 +26,10 @@ const Projects = () => {
       demo:"https://admin-dashboard-1580.netlify.app/",
       code:"https://github.com/HAK1580/Admin-Dashboard-",
     },
-    {
-      id: 4,
-      title: "Responsive Landing Page",
-      desc: "A responsive business page built using React js and Tailwind CSS.",
-      image: "/project-imgs/figma.png",
-      demo:"https://responsive-landing-page-3fii.vercel.app/",
-      code:"https://github.com/HAK1580/responsive-landing-page",
-    },
-    {
-      id: 2,
-      title: "Weather App",
-      desc: "A responsive weather app built with React that fetches real-time data using a public Weather API.",
-      image: "/project-imgs/weatherapp.png",
-      demo:"https://weatherapphak1580.netlify.app/",
-      code:"https://github.com/HAK1580/Weather-App",
-    },
-    {
-      id: 3,
-      title: "University Admission Form",
-      desc: "A React-based admission form with real-time validation and smooth user experience.",
-      image: "/project-imgs/admissionform.PNG",
-      demo:"https://uniadmissionform.netlify.app/",
-      code:"https://github.com/HAK1580/University-Admission-Form-React",
-    },
-    {
-      id: 5,
-      title: "Netflix UI Clone",
-      desc: "A responsive Netflix UI clone built with HTML, CSS, and Vanilla JavaScript.",
-      image: "/project-imgs/netflix.jpg",
-      demo:"https://stellar-piroshki-d94f4f.netlify.app/",
-      code:"",
-    },
-    {
-      id: 6,
-      title: "Calculator App",
-      desc: "A simple, responsive calculator app built using HTML, CSS, and JavaScript.",
-      image: "/project-imgs/calculater.PNG",
-      demo:"https://calcuaterapp.netlify.app/",
-      code:"https://github.com/HAK1580/CalculaterApp",
-    },
+    
+   
+   
+    
   ];
 
   const sliderRef = useRef(null);
