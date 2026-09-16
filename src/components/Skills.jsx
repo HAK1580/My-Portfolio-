@@ -10,7 +10,7 @@ const Skills = () => {
              image:"skills/css.svg" 
         },
         {   id:3,
-            title:"Javascript",
+            title:"Javascript/Express.js ",
              image:"skills/javascript.svg" 
         },
         {   id:4,
