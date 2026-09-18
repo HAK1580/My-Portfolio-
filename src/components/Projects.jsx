@@ -11,7 +11,7 @@ const Projects = () => {
       code:"https://github.com/HAK1580/Scentra-Dead-Final-Production",
     },
     {
-      id: 8,
+      id: 2,
       title: "Expense Tracker App — MERN Stack",
       desc: "Full-stack MERN expense tracker with secure auth and real-time balance tracking.",
       image: "/project-imgs/expense_tracker.png",
@@ -19,13 +19,21 @@ const Projects = () => {
       code:"https://github.com/HAK1580/Expense-tracker-app-frontend",
     },
     {
-      id: 7,
+      id: 3,
       title: "Admin Dashboard ",
       desc: "A responisve Dashboard built using React js and Tailwind CSS. It focus mainly on the structure of the dashboard ",
       image: "/project-imgs/dashboard.PNG",
       demo:"https://admin-dashboard-1580.netlify.app/",
       code:"https://github.com/HAK1580/Admin-Dashboard-",
-    },
+    },{
+
+      id: 4,
+      title: "AI Resume Analyzer ",
+      desc: "The AI Resume & ATS Score Analyzer is an end-to-end full-stack web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). ",
+     image: "/project-imgs/dashboard.PNG",
+     demo:"https://ai-resume-analyzer-three-teal.vercel.app/",
+     code:"https://github.com/HAK1580/AI-Resume-Analyzer",
+  },
     
    
    
