@@ -2,6 +2,14 @@ import React, { useRef } from "react";
 import "../index.css"
 const Projects = () => {
   const project_info = [
+     {
+       id: 4,
+      title: "AI Resume Analyzer ",
+      desc: "AI Resume & ATS Score Analyzer is an AI powered full-stack web app that optimizes resumes for ATS screening.",
+     image: "/project-imgs/resume-analyzer.PNG",
+     demo:"https://ai-resume-analyzer-three-teal.vercel.app/",
+     code:"https://github.com/HAK1580/AI-Resume-Analyzer",
+    },
     {
       id: 1,
       title: "Ecommerce Perfume Store",
@@ -25,19 +33,12 @@ const Projects = () => {
       image: "/project-imgs/dashboard.PNG",
       demo:"https://admin-dashboard-1580.netlify.app/",
       code:"https://github.com/HAK1580/Admin-Dashboard-",
-    },{
-
-      id: 4,
-      title: "AI Resume Analyzer ",
-      desc: "The AI Resume & ATS Score Analyzer is an end-to-end full-stack web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). ",
-     image: "/project-imgs/dashboard.PNG",
-     demo:"https://ai-resume-analyzer-three-teal.vercel.app/",
-     code:"https://github.com/HAK1580/AI-Resume-Analyzer",
-  },
-    
+    },
    
-   
-    
+      
+      
+      
+      
   ];
 
   const sliderRef = useRef(null);
