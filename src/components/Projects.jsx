@@ -10,6 +10,14 @@ const Projects = () => {
      demo:"https://ai-resume-analyzer-three-teal.vercel.app/",
      code:"https://github.com/HAK1580/AI-Resume-Analyzer",
     },
+     {
+       id: 5,
+      title: "Pizzac Food Delivery App ",
+      desc: "Full-stack MERN food ordering app with secure JWT auth and stateful cart operations.Action-oriented",
+     image: "/project-imgs/pizzac.PNG",
+     demo:"https://pizzac-food-app.vercel.app/",
+     code:"https://github.com/HAK1580/pizzac-food-app",
+    },
     {
       id: 1,
       title: "Ecommerce Perfume Store",
